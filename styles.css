@@ -1,0 +1,73 @@
+.head {
+    border-top-left-radius:20px ;
+    border-top-right-radius:20px ;
+    font-size: 425%;
+    background-color: black;
+    height:100px;
+    padding-top:13px;
+    color: #ff8f00;
+    font-family: 'Architects Daughter';
+    position: relative;
+    top:-20px;
+}
+#winner{
+    font-size: 65px;
+}
+.container{
+    background-color: #024b30;
+    height:707px;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    border-radius:20px;
+    
+  box-shadow: 0 5px 10px 3px rgba(0,0,0,0.2), 5px 9px 15px 3px rgba(0,0,0,0.2);
+}
+img {
+    height: 150px;
+    width: 150px;
+    border-radius: 15px;
+}
+.card{
+    display:inline-block;
+    width: 300px;
+    font-size: 200%;
+    line-height: 70%;
+}
+.choice{
+    line-height: 30%;
+    position: relative;
+    bottom: 70px;
+}
+h1{
+    font-size: 250%;
+}
+body{
+    background-color:#97BC62FF;
+    background-image: url("dark-wood.png");
+    text-align: center;
+    color: #f5c71a;
+    font-family: 'Patrick Hand';
+}
+footer{
+    position: absolute;
+    bottom:3%;
+    width: 70%;
+    color: #ff8f00;
+}
+button{
+    width: 80px;
+    background-color:#ff8f00;
+    border-radius: 10px;
+    outline:none;
+    border: none;
+    color: black;
+    font-family: 'Patrick Hand';
+    font-size: 25px;
+} 
+button:active{
+    color:#ff8f00;
+}
+button:hover{
+    background-color: #f8b878;
+}
